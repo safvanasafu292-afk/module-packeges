@@ -1,7 +1,6 @@
 
-file = open("notes.txt", "r")
+with open("notes.txt", "r")as file:
+    content=(file.read())
+    print(content)
 
-for line in file:
-    print(line.strip())
 
-file.close()
