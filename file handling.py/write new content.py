@@ -1,4 +1,5 @@
 
-file = open("notes.txt", "a")
-file.write("\nHello ,second line" )
+file = open("notes.txt", "r")
+content=file.read()
+print(content)
 file.close()
