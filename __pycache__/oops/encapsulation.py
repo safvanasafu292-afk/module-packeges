@@ -1,38 +1,38 @@
-# class Demo:
+class Demo:
 
-#     def __init__(self):
-#         self.public_var = "I AM PUBLIC"
-#         self._protected_var = "I AM PROTECTED"
-#         self.__private_var = "I AM PRIVATE"
+    def __init__(self):
+        self.public_var = "I AM PUBLIC"
+        self._protected_var = "I AM PROTECTED"
+        self.__private_var = "I AM PRIVATE"
 
-#     def show(self):
-#         print(self.public_var)
-#         print(self._protected_var)
-#         print(self.__private_var)
-#     def get_private(self):
-#         return self.__private_var
+    def show(self):
+        print(self.public_var)
+        print(self._protected_var)
+        print(self.__private_var)
+    def get_private(self):
+        return self.__private_var
     
-# obj = Demo()
-# print(obj.public_var)
-# print(obj._protected_var)
-# print(obj.get_private())
-# #student program
-# class Student:
+obj = Demo()
+print(obj.public_var)
+print(obj._protected_var)
+print(obj.get_private())
+#student program
+class Student:
 
-#     def __init__(self, name, mark):
-#         self.name = name          # Public
-#         self._grade = "A"         # Protected
-#         self.__mark = mark        # Private
+    def __init__(self, name, mark):
+        self.name = name          # Public
+        self._grade = "A"         # Protected
+        self.__mark = mark        # Private
 
-#     def get_mark(self):
-#         return self.__mark
+    def get_mark(self):
+        return self.__mark
 
 
-# student = Student("Safvana", 90)
+student = Student("Safvana", 90)
 
-# print(student.name)
-# print(student._grade)
-# print(student.get_mark())
+print(student.name)
+print(student._grade)
+print(student.get_mark())
 #employee
 class Employee:
     def __init__(self):
@@ -48,6 +48,7 @@ emp = Employee()
 print(emp.name)
 print(emp._department)
 print(emp.get_salary())
+
 #bank balance
 class bankaccount:
     def __init__(self):
