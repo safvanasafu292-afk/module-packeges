@@ -38,3 +38,8 @@ atm.verify_pin()
 atm.check_balance()
 atm.update_server()
 atm.withdraw()
+#with abstraction paractical codes
+#Your code is using abstraction with Python's ABC and @abstractmethod. There is one small issue: __update_server() is called but not defined.
+
+
+
